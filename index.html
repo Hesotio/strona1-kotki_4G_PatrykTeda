@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koty - Patryk Teda</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <link rel="icon" href="images/logo.png">
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo"><img src="./images/logo.png" alt="web logo" /></div>
+          <ul class="nav">
+            <li><a href="#">koty</a></li>
+            <li><a href="#">psy</a></li>
+            <li><a href="#">świnki morskie</a></li>
+      </header>
+
+      <main>
+        <section class="cats">
+            <div class="images">
+                <img src="./images/cat-img-1.png" alt="cat img" onclick="showCat1()">
+                <img src="./images/cat-img-2.png" alt="cat img" onclick="showCat2()">
+                <img src="./images/cat-img-3.png" alt="cat img" onclick="showCat3()">
+                <img src="./images/cat-img-4.png" alt="cat img" onclick="showCat4()">
+                <img src="./images/cat-img-5.png" alt="cat img" onclick="showCat5()">
+                <img src="./images/cat-img-6.png" alt="cat img" onclick="showCat6()">
+            </div>
+            <div class="info">
+                <article class="item1">
+                  <p>kot egzotyczny</p>
+                  <img src="./images/cat-img-1.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>cichy, spokojny</li>
+                    <li>bardzo łagodny, bez agresji</li>
+                    <li>przyjazny, oddany opiekunowi, mocno zżyty</li>
+                    <li>doskonały kot dla dzieci, jak i dla starszej osoby</li>
+                    <li>z łatwością akceptuje inne koty oraz psy</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>mogą wystąpić wrodzone wady genetyczne</li>
+                    <li>wymaga częstszego przemywania okolic oczu</li>
+                  </ul>
+                </article>
+
+                <article class="item2">
+                  <p>kot khao manee</p>
+                  <img src="./images/cat-img-2.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>polecany do domów z dziećmi</li>
+                    <li>nadaje się także dla seniorów</li>
+                    <li>akceptuje inne koty i psy</li>
+                    <li>niewymagający w pielęgnacji</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>może być głośny</li>
+                    <li>zdarzają się przypadki głuchoty</li>
+                    <li>rasa bardzo rzadka i droga</li>
+                  </ul>
+                </article>
+
+                <article class="item3">
+                  <p>kot Lykoi</p>
+                  <img src="./images/cat-img-3.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>brak wrodzonych wad genetycznych</li>
+                    <li>łatwa pielęgnacja</li>
+                    <li>zrównoważony charakter</li>
+                    <li>lubi towarzystwo człowieka</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>wysoka cena</li>
+                    <li>bardzo mało hodowli</li>
+                  </ul>
+                </article>
+
+                <article class="item4">
+                  <p>kot perski</p>
+                  <img src="./images/cat-img-4.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>łagodny i miły w obejściu</li>
+                    <li>spokojny domator</li>
+                    <li>lubi zabawy</li>
+                    <li>łatwo akceptuje inne koty i psy</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>bardzo wymagający w pielęgnacji</li>
+                    <li>może mieć wrodzoną wadę nerek (PKD)</li>
+                    <li>niektóre osobniki mają wady zgryzu</li>
+                    <li>nie nadaje się na kota wychodzącego</li>
+                  </ul>
+                </article>
+
+                <article class="item5">
+                  <p>kot elfi</p>
+                  <img src="./images/cat-img-5.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>aktywny, towarzyski, uczuciowy</li>
+                    <li>lubi zabawy, co nie przemija z wiekiem</li>
+                    <li>nadaje się do domu z dziećmi</li>
+                    <li>mniej uczulający, co nie znaczy antyalergiczny</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>wymaga systematycznej pielęgnacji</li>
+                    <li>wymaga ochrony przed zimnem i słońcem</li>
+                    <li>hałaśliwy</li>
+                    <li>nie nadaje się na kota wychodzącego</li>
+                  </ul>
+                </article>
+
+                <article class="item6">
+                  <p>kot dragon li</p>
+                  <img src="./images/cat-img-6.png" alt="">
+                  <ul> <p>Zalety:</p>
+                    <li>miły, przyjacielski towarzysz</li>
+                    <li>łatwo się aklimatyzuje</li>
+                    <li>dogada się z innym kotem i z psem</li>
+                    <li>łatwy w pielęgnacji</li>
+                    <li>ogólnie zdrowy i odporny</li>
+                  </ul>
+
+                  <ul> <p>Wady:</p>
+                    <li>rasa bardzo rzadka</li>
+                    <li>źle znosi samotność</li>
+                  </ul>
+                </article>
+            </div>
+        </section>
+      </main>
+      <footer><p>&copy; Patryk Teda</p></footer>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
